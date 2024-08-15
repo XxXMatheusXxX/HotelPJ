@@ -24,9 +24,9 @@ public class Quarto {
 	@Column(name = "id", nullable = false, length = 100)
 	private Long id;
 	
-	private String tipoquarto;
+	private String tipo;
 	
-	private String numquarto;
+	private String num;
 	
 	private String andar;
 		
