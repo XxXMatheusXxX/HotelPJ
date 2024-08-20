@@ -33,6 +33,6 @@ public class Reserva {
 	
 	@ManyToOne
 	@JoinColumn(name = "hospede_id")
-	private Hospede Hospede;
+	private Hospede hospede;
 
 }
